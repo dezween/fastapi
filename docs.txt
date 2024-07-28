@@ -1,0 +1,9 @@
+python -m venv venv
+pip install fastapi
+pip install uvicorn
+
+uvicorn main:app --reload
+
+venv/Scripts/activate
+
+http://127.0.0.1:8000/docs
